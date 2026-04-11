@@ -57,7 +57,7 @@
       bindings = <
         &trans  &none    X_CTL_W  X_PREV   X_NEXT   &none        &kp HOME &kp PG_DN &kp PG_UP &kp END   &kp DEL &trans
         &trans  X_ALL    X_SAVE   X_SHTAB  &kp TAB  &none        &kp LEFT &kp DOWN  &kp UP    &kp RIGHT &none   &trans
-        &trans  X_UNDO   X_CUT    X_COPY   X_PASTE  X_REDO       &none    &none     &none     &none     &none   &trans
+        &trans  X_UNDO   X_CUT    X_COPY   X_PASTE  X_REDO       &none    &none     &none     &none     &kp DEL &trans
           &kp CAPS  &lt FN_MEDIA_LAYER DEL  &mo NUM_ROW_LAYER    &trans  &mo FN_MEDIA_LAYER  &EZ_LSK(RALT)
       >;
     };
@@ -83,7 +83,7 @@
       bindings = <
         &trans  &kp RS(N1) &kp RS(N2) &kp RS(N3) &kp RS(N4) &kp RS(N5)       &kp LS(N6) &kp LS(N7) &kp LS(N8) &kp LS(N9) &kp LS(N0) &trans
         &trans  &kp N1     &kp N2     &kp N3     &kp N4     &kp N5           &kp N6     &kp N7     &kp N8     &kp N9     &kp N0     &trans
-        &trans  &none      &none      &none      &none      &none            S_MINUS    S_COMMA    S_DOT      S_COLON    S_FSLH     &trans
+        &trans  S_MINUS    &none      &none      &none      &none            S_MINUS    S_COMMA    S_DOT      S_COLON    S_FSLH     &trans
                                       &trans  &kp RS(SPACE) &trans           &trans  &kp LS(SPACE) &kp RALT
       >;
     };
@@ -118,4 +118,6 @@
   #include "extra_layers/bepo.dtsi"
 #elif defined KB_LAYOUT_ERGOL && defined HUMMINGBIRD
   #include "extra_layers/ergol_hummingbird.dtsi"
+#elif defined KB_LAYOUT_ERGLACE && defined KINGFISHER
+  #include "extra_layers/erglace_kingfisher.dtsi"
 #endif

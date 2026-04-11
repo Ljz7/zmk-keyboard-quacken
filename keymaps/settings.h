@@ -13,7 +13,7 @@
 // #define KB_LAYOUT_BEPOLAR
 // #define KB_LAYOUT_DVORAK
 // #define KB_LAYOUT_ERGOL
-// #define KB_LAYOUT_ERGLACE
+#define KB_LAYOUT_ERGLACE
 // #define KB_LAYOUT_QWERTY_INTL
 // #define KB_LAYOUT_QWERTY_LAFAYETTE
 
@@ -25,7 +25,7 @@
 // #define KB_EMULATION_QWERTY_LAFAYETTE // assumes the host is in QWERTY-intl or AZERTY
 
 // Uncomment the following line to opt-in to experimental custom dead-key behavior
-// #define ENABLE_FANCY_DEAD_KEYS
+#define ENABLE_FANCY_DEAD_KEYS
 
 // Uncomment the following line if using a Mac:
 
@@ -45,7 +45,7 @@
 // #define HT_NONE
 // #define HT_THUMB_TAPS
 // #define HT_HOME_ROW_MODS  // (default behavior)
-// #define HT_TWO_THUMB_KEYS
+#define HT_TWO_THUMB_KEYS
 
 // Timing is key! Keep the default value if unsure.
 // This defines how long (in ms) a hold-tap key with the "tap-preferred" flavor
@@ -82,7 +82,7 @@
 //  + Escape under the left thumb (direct access)
 // Highly recommended for Vim users, obviously. :-)
 
-// #define VIM_NAVIGATION
+#define VIM_NAVIGATION
 
 // Uncomment the following line to enable shift as a pinky HRM.
 // Useful for combined shortcuts, but NOT MEANT to type text!
@@ -93,3 +93,5 @@
 // Beware: this increases the typing load of the left thumb.
 
 // #define LEFT_HAND_SPACE
+
+#define KINGFISHER
