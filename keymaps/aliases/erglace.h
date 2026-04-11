@@ -5,14 +5,14 @@
  */
 
 #define X_UNDO  &kp CMD(B)
-#define X_CUT   &kp CMD(FSLH)
+#define X_CUT   &kp CMD(P)
 #define X_COPY  &kp CMD(O)
-#define X_PASTE &kp CMD(Y)
-#define X_REDO  &kp CMD(Q)
+#define X_PASTE &kp CMD(DOT)
+#define X_REDO  &kp CMD(X)
 
-#define X_CTL_W &kp RC(DOT)
+#define X_CTL_W &kp RC(FSLH)
 #define X_SAVE  &kp CMD(L)
-#define X_ALL   &kp CMD(S)
+#define X_ALL   &kp CMD(A)
 
 /**
  * Arsenik Symbols:
@@ -54,10 +54,10 @@
 #define S_PIPE  &kp PIPE
 #define S_EXCL  &kp RA(M)
 #define S_SEMI  &kp RS(G)
-#define S_COLON &kp RS(X)
+#define S_COLON &kp RS(T)
 #define S_QMARK &kp RS(C)
 
 // extra
 #define S_COMMA &kp G
-#define S_DOT   &kp X
+#define S_DOT   &kp T
 #define S_MONEY &kp RS(N1)
