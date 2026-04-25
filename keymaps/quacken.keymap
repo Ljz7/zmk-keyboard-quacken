@@ -118,4 +118,6 @@
   #include "extra_layers/bepo.dtsi"
 #elif defined KB_LAYOUT_ERGOL && defined HUMMINGBIRD
   #include "extra_layers/ergol_hummingbird.dtsi"
+#elif defined KB_LAYOUT_ERGLACE && defined HUMMINGBIRD
+  #include "extra_layers/erglace_hummingbird.dtsi"
 #endif
